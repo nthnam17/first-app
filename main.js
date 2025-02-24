@@ -13,8 +13,6 @@ const createWindow = () => {
     },
   });
 
-  // win.loadURL("https://nextads.tektra.vn/");
-
   win.on("closed", () => {
     win = null;
   });
